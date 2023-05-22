@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import React, { useState } from 'react';
 import Chat from './Chat';
 
-const socket = io.connect("http://chatserver.nnisarg.xyz");
+const socket = io.connect("https://chatserver.nnisarg.xyz");
 
 function App() {
 
