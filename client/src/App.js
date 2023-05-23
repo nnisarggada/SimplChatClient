@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import React, { useState } from 'react';
 import Chat from './Chat';
 
-const socket = io.connect("https://nnisargchat.glitch.me:3000");
+const socket = io.connect("https://nnisargchat.glitch.me");
 
 function App() {
 
