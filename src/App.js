@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import React, { useState } from "react";
 import Chat from "./Chat";
 
-const socket = io.connect("https://nnisarg.in:443");
+const socket = io.connect("http://nnisarg.in:3000");
 
 function App() {
   const [username, setUsername] = useState("");
